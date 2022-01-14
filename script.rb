@@ -1,4 +1,4 @@
 
-def some_function
-  return nil
+def some_function(params)
+   params ? "Got something" : nil
 end
